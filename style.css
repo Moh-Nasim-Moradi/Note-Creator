@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    background:linear-gradient(135deg,#cf9aff,#95c0ff);
+    width: 100%;
+    min-height: 100vh;
+    padding: 120px 120px;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+}
+.container img{
+    width: 40px;
+}
+#create-note{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 15px;
+    background:linear-gradient(135deg, #9588a0, #8318e1) ;
+    margin: 15px 15px;
+    padding: 0 30px 0 10px;
+    font-size: 20px;
+    font-weight:600;
+    color: #fff;
+}
+.container button img{
+width: 25px;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    min-height: 100px;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    padding: 10px 10px;
+    margin: 15px;
+}
+.notes-container{
+    width: 420px;
+    
+}
+.notes-container .noteDiv{
+    position: relative;
+    width: 100%;
+ 
+}
+.notes-container p{
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.notes-container  img{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 20px;
+    cursor: pointer;
+}
+.notes-container .saveImg{
+    position: absolute;
+    bottom: 10px;
+    right: 35px;
+    width: 19px;
+    cursor: pointer;
+}
